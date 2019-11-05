@@ -16,16 +16,11 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 
-
-    //wp_enqueue_scripts( 'github-calendar', get_template_directory_uri() . '', '', '', true);
-    //wp_enqueue_scripts( 'github-calendar', $homepath . '/node_modules/github-calendar/dist/github-calendar.min.js', '', '', true);
  
     // This should be changed so that the path to the github-calendar js file allows the file to stay in node_modules and not have to be copied over
-    wp_enqueue_script( 'github-calendar', get_site_url() . '/node_modules/github-calendar/dist/github-calendar.min.js', '', '', true);
+    //wp_enqueue_script( 'github-calendar', get_site_url() . '/node_modules/github-calendar/dist/github-calendar.min.js', '', '', true);
 
-
-    //echo get_theme_root();
-    //echo get_site_url();
+    wp_enqueue_script( 'github-calendar', get_stylesheet_directory_uri() . '/github-calendar.min.js', '', '', true);
 }
 
 ?>
