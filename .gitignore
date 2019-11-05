@@ -39,6 +39,8 @@
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
+!package-lock.json
+!package.json
 
 # track .editorconfig file (i.e. do NOT ignore it)
 !.editorconfig

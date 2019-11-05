@@ -1,0 +1,22 @@
+{
+  "name": "led-personal-site-dev",
+  "version": "1.0.0",
+  "description": "Personal Website redo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waka867/website-redo.git"
+  },
+  "author": "Ledwing Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waka867/website-redo/issues"
+  },
+  "homepage": "https://github.com/Waka867/website-redo#readme",
+  "dependencies": {
+    "github-calendar": "^1.3.2"
+  }
+}
