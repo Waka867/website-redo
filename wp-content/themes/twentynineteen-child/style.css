@@ -8,3 +8,9 @@ Template: twentynineteen
 Version: 1.0.0
 Text Domain: twentynineteen-child
 */ Custom CSS goes after this line
+
+
+
+body {
+	/*font-family: sans-serif !important;*/
+}
