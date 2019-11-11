@@ -10,6 +10,9 @@ Text Domain: twentynineteen-child
 */ Custom CSS goes after this line
 
 
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	/*font-family: sans-serif !important;*/
