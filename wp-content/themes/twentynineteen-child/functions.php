@@ -20,6 +20,7 @@ function my_theme_enqueue_styles() {
     // This should be changed so that the path to the github-calendar js file allows the file to stay in node_modules and not have to be copied over
     //wp_enqueue_script( 'github-calendar', get_site_url() . '/node_modules/github-calendar/dist/github-calendar.min.js', '', '', true);
 
+    wp_enqueue_script( '2019-child-code', get_stylesheet_directory_uri() . '/scripts.js', '', '', true);
     wp_enqueue_script( 'github-calendar', get_stylesheet_directory_uri() . '/github-calendar.min.js', '', '', true);
     wp_enqueue_style( 'github-calendar-styles', get_stylesheet_directory_uri() . '/github-calendar.css' );
     wp_enqueue_script( 'github-calendar-activate', get_stylesheet_directory_uri() . '/github-calendar-activate.js', '', '', true);
